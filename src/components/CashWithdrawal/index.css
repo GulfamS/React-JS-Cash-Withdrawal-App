@@ -1,0 +1,154 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cash-card {
+  max-height: 700px;
+  max-width: 450px;
+  background-color: #150b3e;
+  padding: 28px;
+  border-radius: 15px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .cash-card {
+    max-width: 500;
+    height: auto;
+  }
+}
+
+.name-container {
+  display: flex;
+  margin-top: 70px;
+}
+
+.alpha-container {
+  height: 60px;
+  width: 60px;
+  border-radius: 35px;
+  background-color: #c7d2fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .alpha-container {
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+  }
+}
+
+.name-alpha {
+  color: #7c3aed;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .name-alpha {
+    font-size: 20px;
+  }
+}
+
+.user-name-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.name {
+  font-family: Roboto;
+  color: #c4c4c4;
+  font-size: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 28px;
+  }
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.your-balance {
+  font-family: Roboto;
+  color: #585076;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .your-balance {
+    font-size: 24px;
+  }
+}
+
+.amount {
+  font-family: Roboto;
+  color: #d4d2db;
+  font-size: 28px;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .amount {
+    font-size: 32;
+  }
+}
+
+.rupees {
+  font-family: Roboto;
+  color: #585076;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .rupees {
+    font-size: 18px;
+  }
+}
+
+.withdraw {
+  font-family: Roboto;
+  color: #d4d2db;
+  font-size: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  .withdraw {
+    font-size: 28px;
+  }
+}
+
+.rs-sum {
+  font-family: Roboto;
+  color: #585076;
+  font-size: 15px;
+  font-weight: 400px;
+}
+
+@media screen and (min-width: 768px) {
+  .rs-sum {
+    font-size: 18px;
+  }
+}
+
+.denomination-list {
+  display: flex;
+  flex-wrap: wrap;
+}
